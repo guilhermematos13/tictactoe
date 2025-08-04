@@ -41,6 +41,7 @@ const MenuOptions = ({ colors, setColors }) => {
           value={colors.background}
           onChange={(e) => setColors({ ...colors, background: e.target.value })}
           className="ml-2 cursor-pointer"
+          style={{ border: `1px solid ${colors.cell}` }}
         />
       </label>
     </div>
