@@ -59,8 +59,6 @@ export default function useGameLogic() {
     newBoard[index] = playerTurn
     setBoard(newBoard)
 
-    console.log(newBoard)
-
     const result = checkWinner(newBoard)
 
     if (result) {
